@@ -123,7 +123,7 @@
 					line2 = "Error"
 				else if(shuttle.has_arrive_time())
 					line2 = get_supply_shuttle_timer()
-					if(lentext(line2) > CHARS_PER_LINE)
+					if(length(line2) > CHARS_PER_LINE)
 						line2 = "Error"
 				else if (shuttle.is_launching())
 					if (shuttle.at_station())
