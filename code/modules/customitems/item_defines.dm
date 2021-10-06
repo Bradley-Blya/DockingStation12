@@ -1231,3 +1231,17 @@
 	 desc = "This cane seems to have 'Ryals' engraved on its handle."
 	 icon_state = "cane"
 	 item_state = "stick"
+	 
+
+///// Outlands Jacket - Kane DeWitt - SpaceCyborg70
+
+/obj/item/clothing/suit/storage/fluff/kane_dewitt
+	name = "Outlands Jacket"
+	desc = "A tough leather combat jacket with big, bulky shoulder pads, and metal arm and elbow guards, now worn and tattered. It has what appears to be several small patches around the chest, and spent cartridges hanging from the zippers. Teeth of various sizes hang from the sleeves. Scrawled on the tag inside is 'Kane'."
+	icon = 'icons/obj/custom_items.dmi'
+	icon_state = "kaneleatherjacket"
+	item_state = "kaneleatherjacket"
+	body_parts_covered = UPPER_TORSO|ARMS
+	allowed = list(/obj/item/weapon/tank/emergency_oxygen, /obj/item/device/flashlight,/obj/item/weapon/gun/energy,/obj/item/weapon/gun/projectile,/obj/item/ammo_magazine,/obj/item/ammo_casing,/obj/item/weapon/melee/baton,/obj/item/weapon/handcuffs,/obj/item/weapon/storage/fancy/cigarettes,/obj/item/weapon/lighter,/obj/item/device/detective_scanner,/obj/item/device/taperecorder)
+	armor = list(melee = 20, bullet = 5, laser = 15, energy = 10, bomb = 0, bio = 0, rad = 0)
+
