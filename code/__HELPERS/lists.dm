@@ -39,12 +39,12 @@ proc/listgetindex(var/list/list,index)
 		else if(index in list)
 			return list[index]
 	return
-
+/*
 proc/islist(list/list)
 	if(istype(list))
 		return 1
 	return 0
-
+*/
 //Return either pick(list) or null if list is not of type /list or is empty
 proc/safepick(list/list)
 	if(!islist(list) || !list.len)
