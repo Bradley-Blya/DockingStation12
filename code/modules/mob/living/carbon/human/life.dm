@@ -1503,7 +1503,7 @@
 							bodytemp.icon_state = "temp0"
 			if(blind)
 				if(blinded)		blind.layer = 18
-				else			blind.layer = 0
+				else			blind.layer = null //this is the code I NEED to review to prevent permanent blindness - set to null, was 0
 
 			if(disabilities & NEARSIGHTED)	//this looks meh but saves a lot of memory by not requiring to add var/prescription
 				if(glasses)					//to every /obj/item
